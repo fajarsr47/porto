@@ -1,7 +1,7 @@
 <script setup>
 import { ref, computed } from 'vue';
 
-// --- 1. DATA PROYEK (Total 9 Item) ---
+// --- 1. DATA PROYEK ---
 const projects = ref([
     {
         id: 1,
@@ -77,40 +77,27 @@ const projects = ref([
     }
 ]);
 
-// --- 2. LOGIKA TOGGLE (See More / Show Less) ---
+// --- 2. LOGIKA TOGGLE ---
 const initialLimit = 6;
 const limit = ref(initialLimit);
-
-// Cek apakah sedang menampilkan semua atau tidak
 const isExpanded = computed(() => limit.value > initialLimit);
-
-// Data yang ditampilkan dihitung berdasarkan limit
 const displayedProjects = computed(() => {
     return projects.value.slice(0, limit.value);
 });
-
-// Fungsi Toggle (Buka / Tutup)
 function toggleProjects() {
     if (isExpanded.value) {
-        // Jika sedang terbuka, tutup kembali ke 6
         limit.value = initialLimit;
-        
-        // Opsional: Scroll sedikit ke atas agar user tidak kehilangan fokus
-        // document.getElementById('portfolio-section').scrollIntoView({ behavior: 'smooth' });
     } else {
-        // Jika tertutup, buka semua
         limit.value = projects.value.length;
     }
 }
 
-// --- 3. LOGIKA POPUP (Modal) ---
+// --- 3. LOGIKA POPUP ---
 const selectedProject = ref(null);
-
 function openModal(project) {
     selectedProject.value = project;
     document.body.style.overflow = 'hidden';
 }
-
 function closeModal() {
     selectedProject.value = null;
     document.body.style.overflow = 'auto';
@@ -118,9 +105,9 @@ function closeModal() {
 </script>
 
 <template>
-    <div id="portfolio-section" class="relative mt-5 md:mt-20 p-6 md:p-10 w-full flex flex-col md:flex-row gap-2 border border-white/10 bg-[#030E21]/60 rounded-3xl backdrop-blur-sm">
+    <div id="portofolio" class="relative mt-5 md:mt-20 p-6 md:p-10 w-full flex flex-col md:flex-row gap-2 border border-white/10 bg-[#030E21]/60 rounded-3xl backdrop-blur-sm">
         
-        <img src="../assets/flat/Flat4B.png" alt="Decoration" class="absolute bottom-4 right-10 md:right-10 w-60 md:w-80 opacity-50 md:opacity-100 pointer-events-none z-0">
+        <img src="../assets/flat/Flat4B.png" alt="Decoration" class="absolute -bottom-4 -right-10 md:right-10 w-60 md:w-80 opacity-50 md:opacity-100 pointer-events-none z-0">
 
         <div class="h-full w-full flex flex-col z-10">
             <div class="flex flex-row justify-between items-end mb-8">
