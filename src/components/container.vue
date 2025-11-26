@@ -9,10 +9,10 @@
 
 <template>
     <div class="relative isolate w-full">
-        <img src="../assets/glow/v1.png" alt="" class="absolute -z-1">
-        <img src="../assets/glow/v2.svg" alt="" class="absolute -z-1 right-0 top-48 md:top-100">
-        <img src="../assets/glow/v3.svg" alt="" class="absolute -z-1 left-0 top-48 md:top-300">
-        <img src="../assets/glow/v4.svg" alt="" class="absolute -z-1 right-0 top-48 md:top-700">
+        <img src="../assets/glow/v1.png" alt="" class="absolute z-[-1]">
+        <img src="../assets/glow/v2.svg" alt="" class="absolute z-[-1] right-0 top-48 md:top-100">
+        <img src="../assets/glow/v3.svg" alt="" class="absolute z-[-1] left-0 top-48 md:top-300">
+        <img src="../assets/glow/v4.svg" alt="" class="absolute z-[-1] right-0 top-48 md:top-700">
 
         <div class="w-full h-full pt-7 px-7 md:px-12 xl:px-28">
             <Header></Header>

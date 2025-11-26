@@ -26,18 +26,18 @@
                     </a>
                 </div>
                 <div class="w-fit h-full flex flex-row gap-6 items-center">
-                    <a href="#">
+                    <a href="https://www.instagram.com/fajar_sr47" target="_blank" rel="noopener noreferrer">
                         <img src="../assets/icon/Instagram.svg" alt="">
                     </a>
-                    <a href="#">
+                    <a href="#" target="_blank" rel="noopener noreferrer">
                         <img src="../assets/icon/Twitter.svg" alt="">
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/fajarsetiawan47" target="_blank" rel="noopener noreferrer">
                         <img src="../assets/icon/Linkedin.svg" alt="">
                     </a>
-                    <a href="#">
+                    <!-- <a href="#">
                         <img src="../assets/icon/Facebook.svg" alt="">
-                    </a>
+                    </a> -->
                 </div>
             </div>
             <div class="bg-white/10 w-full h-1"></div>
