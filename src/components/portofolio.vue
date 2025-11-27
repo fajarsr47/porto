@@ -105,9 +105,9 @@ function closeModal() {
 </script>
 
 <template>
-    <div id="portofolio" class="relative mt-5 md:mt-20 p-6 md:p-10 w-full flex flex-col md:flex-row gap-2 border border-white/10 bg-[#030E21]/60 rounded-3xl backdrop-blur-sm">
+    <div id="portofolio" class="relative mt-5 md:mt-20 p-6 md:p-10 w-full flex flex-col md:flex-row gap-2 border-white/10 bg-[#030E21]/60 rounded-3xl backdrop-blur-sm overflow-hidden md:overflow-visible">
         
-        <img src="../assets/flat/Flat4B.png" alt="Decoration" class="absolute -bottom-4 -right-10 md:right-10 w-60 md:w-80 opacity-50 md:opacity-100 pointer-events-none z-0">
+        <img src="../assets/flat/Flat4B.png" alt="Decoration" class="absolute -bottom-4 -right-10 md:right-10 w-60 md:w-80 opacity-50 md:opacity-100 pointer-events-none z-[-1] md:z-0">
 
         <div class="h-full w-full flex flex-col z-10">
             <div class="flex flex-row justify-between items-end mb-8">
@@ -132,14 +132,14 @@ function closeModal() {
                     v-for="project in displayedProjects" 
                     :key="project.id" 
                     @click="openModal(project)"
-                    class="group relative h-64 w-full rounded-2xl shadow-xl overflow-hidden cursor-pointer border border-white/5 hover:border-amber-300/50 transition-all duration-300 hover:-translate-y-2 bg-[#091427]"
+                    class="group relative h-30 md:42 lg:h-64 w-full rounded-2xl shadow-xl overflow-hidden cursor-pointer border border-white/5 hover:border-amber-300/50 transition-all duration-300 hover:-translate-y-2 bg-[#091427]"
                 >
                     <img :src="project.image" :alt="project.title" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                     <div class="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
                     
                     <div class="absolute bottom-0 left-0 p-5 w-full transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                         <span class="text-amber-300 text-xs font-semibold tracking-wider uppercase">{{ project.category }}</span>
-                        <h3 class="text-xl font-bold text-white mt-1 group-hover:text-amber-100">{{ project.title }}</h3>
+                        <h3 class="text-lg lg:text-xl font-bold text-white mt-1 group-hover:text-amber-100">{{ project.title }}</h3>
                         <p class="text-xs text-gray-300 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">Klik untuk detail</p>
                     </div>
                 </div>

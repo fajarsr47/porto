@@ -3,11 +3,11 @@
 
 <template>
     <div class="relative mt-10 w-full h-210 sm:h-120 md:h-130 lg:h-150 xl:h-250 flex sm:flex-row flex-col items-center sm:items-start">
-        <h1 class="text-4xl sm:absolute sm:text-6xl lg:text-7xl xl:text-9xl font-bold text-white tracking-wide mt-8 leading-tight z-10 right-1/4 sm:top-8 lg:top-18 xl:top-30">
+        <h1 class="text-4xl sm:absolute sm:text-6xl lg:text-7xl xl:text-[7rem] font-bold text-white tracking-wide mt-8 leading-tight z-10 right-1/4 sm:top-8 lg:top-18 xl:top-30">
             Fajar 
             <span class="relative inline-block">
                 Set<span class="text-amber-300">i</span>awan
-                <div class="absolute top-13 left-[28%] md:left-[35%] xl:w-[24px] xl:h-180 bg-amber-300 z-[-1]"></div>
+                <div class="absolute top-12 left-[28%] md:left-[35.3%] xl:w-[19.3px] xl:h-180 bg-amber-300 z-[-1]"></div>
             </span>
         </h1>
 

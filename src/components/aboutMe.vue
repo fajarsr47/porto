@@ -34,7 +34,7 @@ const highlights = ref([
 </script>
 
 <template>
-    <div class="relative mt-5 md:mt-20 p-6 md:p-10 md:py-25 w-full flex flex-col md:flex-row gap-6 bg-[#030E21]/60 rounded-3xl border border-white/10 backdrop-blur-sm overflow-hidden">
+    <div class="relative mt-5 md:mt-20 p-6 md:p-10 md:py-25 w-full flex flex-col md:flex-row gap-6 bg-[#030E21]/60 rounded-3xl border-white/10 backdrop-blur-sm overflow-hidden">
         
         <img src="../assets/flat/Flat8.png" alt="Profile Character" class="absolute -bottom-4 -left-10 xl:left-10 w-48 md:w-64 xl:w-80 opacity-20 md:opacity-100 pointer-events-none z-0">
 

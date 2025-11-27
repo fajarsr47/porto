@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="sticky top-0 z-50 w-full h-16 md:h-20 mx-auto flex flex-row justify-between items-center backdrop-blur-md rounded-b-2xl md:px-12 xl:px-28 transition-all">
+    <div class="sticky top-0 z-50 w-full h-16 md:h-20 mx-auto flex flex-row justify-between items-center backdrop-blur-md rounded-b-2xl px-7 md:px-12 xl:px-28 transition-all">
         
         <a href="#home">
             <img src="../assets/logo/logoPutih.png" alt="LOGO" class="h-8 md:h-10 cursor-pointer hover:opacity-80 transition-opacity">

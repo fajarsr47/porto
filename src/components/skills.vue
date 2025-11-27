@@ -11,17 +11,18 @@ const skillCategories = ref([
             { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
             { name: "Vue.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" },
             { name: "Tailwind CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
-            { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+            // { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
         ]
     },
     {
         name: "Backend Development",
         items: [
-            { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-            { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
-            { name: "Figma", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
-            { name: "VS Code", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
-            { name: "NPM", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" },
+            { name: "PHP", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" },
+            { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+            { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+            // { name: "SQLite", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" },
+            { name: "Laravel", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" },
+            { name: "Django", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" },
         ]
     },
     {
@@ -38,7 +39,7 @@ const skillCategories = ref([
 </script>
 
 <template>
-    <div class="relative mt-5 md:mt-20 p-6 md:p-10 w-full flex flex-col-reverse md:flex-row gap-2 bg-[#030E21]/60 rounded-3xl border border-white/10 backdrop-blur-sm overflow-hidden">
+    <div class="relative mt-5 md:mt-20 p-6 md:p-10 w-full flex flex-col-reverse md:flex-row gap-2 bg-[#030E21]/60 rounded-3xl border-white/10 backdrop-blur-sm overflow-hidden">
         
         <div class="relative w-full md:w-1/3 xl:w-[25%] flex items-end justify-center md:justify-start">
              <img src="../assets/flat/Flat6.png" alt="Skills Illustration" class="w-60 md:w-full max-w-[300px] object-contain md:absolute md:bottom-[-20px] md:left-4 hover:scale-105 transition-transform duration-500">
