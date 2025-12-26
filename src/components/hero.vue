@@ -2,8 +2,8 @@
 </script>
 
 <template>
-    <div class="relative mt-10 w-full h-210 sm:h-120 md:h-130 lg:h-150 xl:h-250 flex sm:flex-row flex-col items-center sm:items-start">
-        <h1 class="text-4xl sm:absolute sm:text-6xl lg:text-7xl xl:text-[7rem] font-bold text-white tracking-wide mt-8 leading-tight z-10 right-1/4 sm:top-8 lg:top-18 xl:top-30">
+    <div class="relative sm:mt-10 w-full h-210 sm:h-120 md:h-130 lg:h-150 xl:h-250 flex sm:flex-row flex-col items-center sm:items-start">
+        <h1 class="text-4xl sm:absolute sm:text-6xl lg:text-7xl xl:text-[7rem] font-bold text-white tracking-wide mt-0 sm:mt-8 leading-tight z-10 right-1/4 sm:top-8 lg:top-18 xl:top-30">
             Fajar 
             <span class="relative inline-block">
                 Set<span class="text-amber-300">i</span>awan
@@ -19,10 +19,10 @@
                 Saya membuat aplikasi web yang modern, responsif, dan intuitif dengan fokus pada pengalaman pengguna yang luar biasa.
             </p>
             <div class="mt-10 lg:mt-20 sm:ml-10 flex flex-col lg:flex-row gap-4 sm:gap-10 w-full items-center sm:items-start">
-                <a href="#" class="w-full sm:w-50 text-center px-6 py-3 bg-amber-300 hover:bg-amber-400 text-black font-bold rounded-xl transition-colors shadow-[0_0_15px_rgba(252,211,77,0.3)]">
+                <a href="https://drive.google.com/file/d/1EhXd7EIcDqYtSai2A39ww2LtojeR0rzc/view?usp=sharing" target="_blank" class="w-full sm:w-50 text-center px-6 py-3 bg-amber-300 hover:bg-amber-400 text-black font-bold rounded-xl transition-colors shadow-[0_0_15px_rgba(252,211,77,0.3)]">
                     Download CV
                 </a>
-                <a href="#" class="w-full sm:w-50 text-center px-6 py-3 border border-white/20 hover:bg-white/5 text-white font-medium rounded-xl transition-colors">
+                <a href="https://wa.me/6288907374747?text=Hii%20" target="_blank" class="w-full sm:w-50 text-center px-6 py-3 border border-white/20 hover:bg-white/5 text-white font-medium rounded-xl transition-colors">
                     Contact Me
                 </a>
             </div>
