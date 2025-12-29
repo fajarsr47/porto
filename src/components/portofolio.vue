@@ -1,25 +1,25 @@
 <script setup>
 import { ref, computed } from "vue";
+import presensi from '../assets/foto/presensi.png'
+import skin from '../assets/foto/skin.png'
 
-// --- 1. DATA PROYEK ---
 const projects = ref([
   {
     id: 1,
     title: "Presensi Face Recognition",
     category: "Fullstack",
-    image:
-      "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1000&auto=format&fit=crop",
+    image: presensi,
     desc: "Website presensi sekolah menggunakan pengenalan wajah dengan fitur spesial real-time pelaporan kepada wali siswa melalui WhatsApp",
-    github: "https://github.com/fajar-sr47/ecommerce-project",
+    github: "https://github.com/fajarsr47/FacePresensi.git",
   },
   {
     id: 1,
     title: "Rekomendasi Bahan Aktif Skincare",
     category: "Frontend",
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
+      skin,
     desc: "Website untuk merekomendasikan bahan aktif skincare menggunakan foto wajah untuk mendeteksi jenis kulit dan penyakit pada kulit wajah",
-    github: "https://github.com/fajar-sr47/dashboard-ui",
+    github: "https://github.com/fajarsr47/rhiscare_project.git",
   },
   {
     id: 3,
