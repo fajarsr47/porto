@@ -10,7 +10,7 @@ const projects = ref([
     category: "Fullstack",
     image: presensi,
     desc: "Website presensi sekolah menggunakan pengenalan wajah dengan fitur spesial real-time pelaporan kepada wali siswa melalui WhatsApp",
-    github: "https://github.com/fajarsr47/FacePresensi.git",
+    github: "https://fajarsr47.github.io/FacePresensi/",
   },
   {
     id: 1,
@@ -19,7 +19,7 @@ const projects = ref([
     image:
       skin,
     desc: "Website untuk merekomendasikan bahan aktif skincare menggunakan foto wajah untuk mendeteksi jenis kulit dan penyakit pada kulit wajah",
-    github: "https://github.com/fajarsr47/rhiscare_project.git",
+    github: "https://fajarsr47.github.io/rhiscare/",
   },
   {
     id: 3,
